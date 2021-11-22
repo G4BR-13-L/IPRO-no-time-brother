@@ -1,4 +1,0 @@
-- Melhorar a splashscreen
-- Adicionar icone do aplicativo denovo porque não funcionou de primeira
-- Criar e adicionar formulários de Bugs e feedback
-- 
