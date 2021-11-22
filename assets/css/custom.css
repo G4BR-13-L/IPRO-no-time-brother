@@ -1,10 +1,65 @@
+.project-area{
+    width: 100%;
+    background-color: #0051c6;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+@media (max-width: 1420px) {
+    .project-area .header-text {
+      width: 70%;
+      margin-left: 5%;
+    }
+  }
+  
+  @media (max-width: 1320px) {
+    .project-area .header-text .left-text {
+      margin-top: 50%;
+    }
+    .project-area .header-text {
+      width: 50%;
+      margin-left: 5%;
+    }
+  }
+  
+  @media (max-width: 1140px) {
+    .project-area {
+      height: auto;
+    }
+    .project-area .header-text {       
+      width: 92%;
+      padding-top: 793px;
+    }
+    .project-area .header-text .left-text {
+      margin-top: 5%;
+      transform: none !important;
+    }
+  }
+  @media (max-width: 810px) {
+    .project-area {
+      background-size: contain;
+    }
+  
+    .project-area .header-text {
+      padding-top: 100%;
+      margin-left: 0;
+    }
+      
+    .container-fluid .col-md-12 {
+      margin-right: 0px;
+      padding-right: 0px;
+    }
+  }
+  .wav-clip-path{
+      
+  }
 .project-info-section{
-    padding: 20px 85px;
+    padding-bottom: 100px;
 }
 .project-info-section h2{
     font-weight: bold;
-    color:#000a4c;
+    color:white;
     margin-bottom: 20px;
+    font-size: 50px;
 }
 .project-info-section ul{
     display: flex;
