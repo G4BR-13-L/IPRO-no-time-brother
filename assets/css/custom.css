@@ -1,0 +1,42 @@
+.project-info-section{
+    padding: 20px 85px;
+}
+.project-info-section h2{
+    font-weight: bold;
+    color:#000a4c;
+    margin-bottom: 20px;
+}
+.project-info-section ul{
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    justify-content: space-between;
+}
+.project-info-section ul li{
+    height: 60px;
+}
+.project-info-section ul li a{
+    height: 100%;
+    width: 120px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+.project-info-section ul li a#github:hover{
+    background-color: white;
+    color: black;
+}
+.project-info-section ul li a#figma:hover{
+    color: black;
+    background-color: #db74ff;
+}
