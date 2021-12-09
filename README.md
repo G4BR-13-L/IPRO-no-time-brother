@@ -17,7 +17,7 @@
   <a href="#license">Licença</a>
 </p>
 
-<img src="docs/doc-assets/banner-bg.png" alt="Markdownify" style="border-radius: 30px">
+<img src="docs/doc-assets/banner-bg.png" alt="Markdownify" style="border-radius: 30px; width:200; margin:0 auto;">
 
 
 ## Funcionalidades
